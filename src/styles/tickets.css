@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid aquamarine;
+}
+.start  .btn1{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: rgb(33, 121, 155);
+    border-radius: 0.2rem;
+    border: none;
+
+}
+.month{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.month .btn{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.lite{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50rem;
+    height: 35rem;
+    border: 2px solid black;
+    margin: 1rem;
+}
+.tool{
+    width: 15rem;
+    height: 25rem;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 15rem;
+    height: 25rem;
+    background-color:whitesmoke;
+    border: 2px solid black;
+}
